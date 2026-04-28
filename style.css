@@ -63,7 +63,7 @@ body {
   color: #020818;
   text-decoration: none;
   border: none;
-  border-radius: 6px;
+  border-radius: 8px;
   font-size: 14px;
   transition: background-color 0.2s ease;
 }
