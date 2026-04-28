@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homework 3</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header-inner">
+        <a href="../index.html" class="logo">Frontend</a>
+
+        <nav>
+          <ul class="nav-list">
+            <li><a href="../index.html">Головна</a></li>
+            <li><a href="about.html">Про нас</a></li>
+            <li><a href="articles.html">Блог</a></li>
+            <li><a href="gallery.html">Роботи студентів</a></li>
+            <li><a href="contacts.html">Контакти</a></li>
+          </ul>
+        </nav>
+
+        <a href="registration.html" class="btn">Реєстрація</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="articles">
+      <div class="container">
+        <h1 class="articles-title">Статті про frontend-розробку</h1>
+
+        <article class="article-card">
+          <h2>Що таке HTML?</h2>
+          <img src="../icons/html-5.png" alt="html" width="50" height="50">
+
+          <p>
+            HTML — це мова розмітки, за допомогою якої створюється структура вебсторінки.
+            Саме HTML описує, де на сторінці буде заголовок, текст, зображення, посилання,
+            кнопка або форма
+          </p>
+
+          <p>
+            HTML не відповідає за дизайн чи складну логіку. Його головне завдання —
+            правильно організувати контент. Наприклад, для головного заголовка використовують
+            тег <code>&lt;h1&gt;</code>, для абзаців — <code>&lt;p&gt;</code>, для посилань —
+            <code>&lt;a&gt;</code>, а для зображень — <code>&lt;img&gt;</code>
+          </p>
+
+          <p>
+            Хороша HTML-структура робить сайт зрозумілим не тільки для користувачів,
+            а й для браузерів, пошукових систем та програм екранного читання
+          </p>
+        </article>
+
+        <article class="article-card">
+          <h2>Для чого потрібен CSS?</h2>
+          <img src="../icons/css-3.png" alt="css" width="50" height="50">
+
+          <p>
+            CSS — це мова стилів, яка відповідає за зовнішній вигляд сторінки.
+            За допомогою CSS можна змінювати кольори, шрифти, відступи, розміри,
+            розташування блоків та адаптацію сайту під різні екрани
+          </p>
+
+          <p>
+            Якщо HTML створює основу сторінки, то CSS робить її привабливою та зручною.
+            Наприклад, CSS дозволяє розмістити елементи в ряд за допомогою Flexbox,
+            створити сітку через Grid або зробити кнопку схожою на справжній елемент інтерфейсу
+          </p>
+
+          <p>
+            Без CSS сайт виглядав би як звичайний документ з текстом. Саме стилі допомагають
+            створити сучасний дизайн і зробити сторінку зручною для користувача
+          </p>
+        </article>
+
+        <article class="article-card">
+          <h2>Навіщо потрібен JavaScript?</h2>
+          <img src="../icons/js.png" alt="js" width="50" height="50">
+          <p>
+            JavaScript — це мова програмування, яка додає сторінці інтерактивність.
+            Завдяки JavaScript сайт може реагувати на дії користувача: кліки, введення тексту,
+            відкриття меню, перемикання слайдів або відправку форми
+          </p>
+
+          <p>
+            Наприклад, за допомогою JavaScript можна зробити модальне вікно, перевірку форми,
+            інтерактивний калькулятор, галерею зображень або завантаження даних без перезавантаження сторінки
+          </p>
+
+          <p>
+            HTML, CSS і JavaScript працюють разом. HTML створює структуру, CSS додає стиль,
+            а JavaScript робить сторінку живою та зручною для взаємодії
+          </p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-info">
+          <a href="index.html" class="footer-logo">Frontend</a>
+          <p>
+            Курси з frontend-розробки для тих, хто хоче впевнено стартувати в IT
+          </p>
+        </div>
+
+        <nav>
+          <ul class="footer-list">
+            <li><a href="index.html">Головна</a></li>
+            <li><a href="pages/about.html">Про нас</a></li>
+            <li><a href="pages/articles.html">Блог</a></li>
+            <li><a href="pages/gallery.html">Роботи студентів</a></li>
+            <li><a href="pages/contacts.html">Контакти</a></li>
+          </ul>
+        </nav>
+      </div>
+      <span class="divider"></span>
+      <p class="footer-copy">© 2026 Frontend. Всі права захищені</p>
+    </div>
+  </footer>
+</body>
+
+</html>
